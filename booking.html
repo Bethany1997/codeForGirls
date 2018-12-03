@@ -69,7 +69,96 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<div class="massage">
 						<h3>BOOKING</h3>
-						<p>This article is about balneotherapy resorts. For balneotherapy itself, see balneotherapy.</p>
+            <fieldset>
+
+          <!-- Form Name -->
+          <legend>Book an Appointment</legend>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="name">Name</label>
+            <div class="col-md-4">
+            <input id="name" name="name" type="text" placeholder="" class="form-control input-md" required="">
+
+            </div>
+          </div>
+          <div>  <p>*</p></d>
+
+          <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="emailaddress">Email Address</label>
+          <div class="col-md-4">
+          <input id="emailaddress" name="emailaddress" type="text" placeholder="" class="form-control input-md" required="">
+
+          </div>
+        </div>
+            </div>
+              <div>  <p>*</p></d>
+                <!-- Text input-->
+         <div class="form-group">
+            <label class="col-md-4 control-label" for="phone">Phone Number</label>
+            <div class="col-md-4">
+            <input id="phone" name="phone" type="text" placeholder="" class="form-control input-md" required="">
+
+         </div>
+        </div>
+      </div>
+        <div>  <p>*</p></d>
+        <!-- Select Basic -->
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="tourselection">Treatment</label>
+                    <div class="col-md-4">
+                      <select id="tourselection" name="tourselection" class="form-control">
+                        <option value="1">Full set of Acrylics</option>
+                        <option value="2">Manicure</option>
+                        <option value="3">Pedicure</option>
+                        <option value="4">Formal Package</option>
+                        <option value="5">Wedding Package</option>
+                        <option value="6">Festive Package</option>
+                        <option value="7">Acrylic Removal</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div>  <p>*</p> </d>
+                  <!-- Text input-->
+               <div class="form-group">
+                 <label class="col-md-4 control-label" for="dateselection">Date</label>
+                 <div class="col-md-4">
+                 <input id="dateselection" name="dateselection" type="text" placeholder="" class="form-control input-md">
+
+                 </div>
+               </div>
+               <div>  <p>*</p> </d>
+                 <!-- Select Basic -->
+             <div class="form-group">
+               <label class="col-md-4 control-label" for="timeselect">Time</label>
+               <div class="col-md-4">
+                 <select id="timeselect" name="timeselect" class="form-control">
+                   <option value="1">9:45am</option>
+                   <option value="2">12pm</option>
+                   <option value="3">2pm</option>
+                   <option value="4">4pm</option>
+                   <option value="5">5pm</option>
+                   <option value="6">6pm</option>
+                 </select>
+               </div>
+             </div>
+
+             </fieldset>
+             </form>
+             <button class="btn2 btn-1 btn-1b" onclick="location.href='bookingConfirmation.html';" >Submit</button>
+<!--script-->
+<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+<script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+      $('#nivo-lightbox-demo a').nivoLightbox({ effect: 'fade' });
+  });
+  </script>
+<!---->
+
+
 
 	<!--script-->
 	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
@@ -386,6 +475,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 BlurBGImage.init();
 
             });
+
         </script>
 
 </div>
@@ -393,5 +483,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 		<div class="clearfix"> </div>
 </div>
+
     </body>
 </html>

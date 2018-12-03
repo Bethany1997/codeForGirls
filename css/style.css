@@ -732,6 +732,14 @@ display: inline-block;
 	padding: 10px 15px 10px 15px;
 	  margin-bottom: .5em;
 }
+button.btn2.btn-1.btn-1b {
+  color: #fff;
+  border: none;
+  background: #fd08ce;
+  padding: 5px 19px;
+  font-size: 1.5em;
+	position: right;
+}
 button.btn1.btn-1.btn-1b {
   color: #fff;
   border: none;
